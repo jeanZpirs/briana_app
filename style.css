@@ -54,6 +54,12 @@ body {
   height: 3.2rem;
   width: 3.2rem;
   stroke: #222;
+  transition: 0.2s;
+}
+
+.header__cart-icon:hover {
+  background-color: #bcac8b;
+  stroke: #eee;
 }
 
 .header__nav ul {
@@ -74,9 +80,9 @@ body {
 }
 
 .header__nav ul li:not(:last-child):hover {
-  background-color: #bcac8b;
+  background-color: #eee;
   padding: 1rem 2rem;
-  color: #eee;
+  color: #222;
 }
 
 /***********************/
