@@ -55,13 +55,24 @@ body {
 .header__nav ul {
   display: flex;
   align-items: center;
-  gap: 5rem;
 }
 
 .logo {
   width: 12rem;
   height: 100%;
   object-fit: cover;
+}
+
+.header__nav ul li {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.header__nav ul li:not(:last-child):hover {
+  background-color: #bcac8b;
+  padding: 1rem 2rem;
+  color: #eee;
 }
 
 /***********************/
@@ -92,13 +103,13 @@ body {
   justify-content: center;
   gap: 8rem;
 
-  color: #eee;
+  color: #222;
   background-color: #bcac8b;
   padding: 0 8rem;
 }
 
 .banner__title {
-  font-size: 5.8rem;
+  font-size: 4.6rem;
   font-family: "Playfair Display", "Poppins", sans-serif;
 }
 
@@ -175,6 +186,12 @@ body {
   padding: 1.6rem 3.6rem;
 
   border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card__btn:hover {
+  background-color: #a99b7d;
 }
 
 /***********************/
@@ -244,6 +261,10 @@ body {
 
 .footer__links li a {
   font-size: 1.8rem;
+}
+
+.footer__links li a:hover {
+  text-decoration: underline;
 }
 
 .footer__red_socials {
