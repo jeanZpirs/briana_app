@@ -37,6 +37,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 5rem;
+
+  background-color: #bcac8b;
 }
 
 body {
@@ -49,7 +51,9 @@ body {
 /**********************/
 
 .header__cart-icon {
-  height: 4.4rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  stroke: #222;
 }
 
 .header__nav ul {
