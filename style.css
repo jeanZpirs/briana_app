@@ -222,12 +222,12 @@ body {
 }
 
 .footer__logo {
-  width: 20rem;
+  width: 15rem;
 }
 
 .footer__title {
   font-family: "Playfair Display", "Poppins", sans-serif;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   font-weight: 400;
   margin-bottom: 2rem;
 }
@@ -235,6 +235,7 @@ body {
 .footer__red_socials-icon {
   height: 5.2rem;
   width: 5.2rem;
+  fill: red;
 }
 
 .footer li:not(:last-child) {
@@ -242,7 +243,7 @@ body {
 }
 
 .footer__links li a {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .footer__red_socials {
