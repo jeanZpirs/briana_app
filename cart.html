@@ -16,6 +16,12 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Briana - Boutique</title>
   </head>
@@ -52,7 +58,24 @@
       </nav>
     </header>
     <main>
-      <section class="section__slides"></section>
+      <section class="section__slides">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="imgs/slide-1.jpg" alt="Imagen de ropa colgada" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/slide-2.jpg" alt="Imagen de ropa tendida" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/slide-3.jpg" alt="Imagen de ropa ventilada" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
 
       <section class="section__cart">
         <section class="section__cart-items">
@@ -61,7 +84,6 @@
             <h3 class="cart__title">Seleccionar todos (3)</h3>
           </div>
           <div class="cart__box">
-            S
             <input class="cart__input" type="checkbox" />
             <div class="cart__item-img">
               <img
