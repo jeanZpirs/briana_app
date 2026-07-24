@@ -286,9 +286,6 @@ header {
   }
 }
 
-.card__sizes {
-}
-
 .card__btn {
   font-family: "Playfair Display", sans-serif;
   font-size: 1.6rem;
@@ -786,9 +783,6 @@ textarea {
 .cart__item-text h3 {
   font-weight: 400;
   font-size: 3.2rem;
-}
-
-.cart__item-p {
 }
 
 .cart__price {
