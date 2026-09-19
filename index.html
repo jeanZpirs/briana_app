@@ -17,10 +17,13 @@
       rel="stylesheet"
     />
 
+    <!-- SWIPER JS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
+    <script defer type="module" src="script.js"></script>
+    <!-- SWIPER JS -->
 
     <link rel="stylesheet" href="style.css" />
     <title>Briana - Boutique</title>
@@ -28,7 +31,7 @@
   <body>
     <header>
       <a href="/">
-        <img class="logo" src="imgs/logo.png" alt="Logo Briana Butique" />
+        <img class="logo" src="imgs/logo.webp" alt="Logo Briana Butique" />
       </a>
       <nav class="header__nav">
         <ul>
@@ -62,13 +65,13 @@
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="imgs/slide-1.jpg" alt="Imagen de ropa colgada" />
+              <img src="imgs/slide-1.webp" alt="Imagen de ropa colgada" />
             </div>
             <div class="swiper-slide">
-              <img src="imgs/slide-2.jpg" alt="Imagen de ropa tendida" />
+              <img src="imgs/slide-2.webp" alt="Imagen de ropa tendida" />
             </div>
             <div class="swiper-slide">
-              <img src="imgs/slide-3.jpg" alt="Imagen de ropa ventilada" />
+              <img src="imgs/slide-3.webp" alt="Imagen de ropa ventilada" />
             </div>
           </div>
           <div class="swiper-pagination"></div>
@@ -79,7 +82,7 @@
 
       <section class="section__banner">
         <div class="banner__img-box">
-          <img src="imgs/banner.jpg" alt="Hombre postrado en la pared" />
+          <img src="imgs/banner.webp" alt="Hombre postrado en la pared" />
         </div>
         <div class="banner__text-box">
           <h2 class="banner__title">
@@ -97,7 +100,7 @@
         <div class="card">
           <div class="card__img-box">
             <img
-              src="imgs/clothes/premium_photo-1675186049366-64a655f8f537.avif"
+              src="imgs/clothes/premium_photo-1675186049366-64a655f8f537.webp"
               alt="Premium foto"
             />
           </div>
@@ -119,7 +122,7 @@
         </div>
         <div class="card">
           <div class="card__img-box">
-            <img src="imgs/clothes/vestido.avif" alt="Premium foto" />
+            <img src="imgs/clothes/vestido.webp" alt="Premium foto" />
           </div>
           <div class="card__text-box">
             <h3 class="card__title">Vestido Floral</h3>
@@ -139,7 +142,7 @@
         </div>
         <div class="card">
           <div class="card__img-box">
-            <img src="imgs/clothes/children-clothe.jpg" alt="Premium foto" />
+            <img src="imgs/clothes/children-clothe.webp" alt="Premium foto" />
           </div>
           <div class="card__text-box">
             <h3 class="card__title">Vestido Ivory</h3>
@@ -158,10 +161,11 @@
           </div>
         </div>
       </section>
+
       <section class="section__gallery">
-        <img class="gallery-1" src="imgs/gallery-img.avif" alt="Woman ropa" />
-        <img class="gallery-2" src="imgs/gallery-2.jpg" alt="clothes" />
-        <img class="gallery-3" src="imgs/gallery-3.avif" alt="Ropa" />
+        <img class="gallery-1" src="imgs/gallery-img.webp" alt="Woman ropa" />
+        <img class="gallery-2" src="imgs/gallery-2.webp" alt="clothes" />
+        <img class="gallery-3" src="imgs/gallery-3.webp" alt="Ropa" />
       </section>
 
       <section class="section__gallery-swipe swiper hidden">
@@ -169,15 +173,15 @@
           <div class="swiper-slide">
             <img
               class="gallery-1"
-              src="imgs/gallery-img.avif"
+              src="imgs/gallery-img.webp"
               alt="Woman ropa"
             />
           </div>
           <div class="swiper-slide">
-            <img class="gallery-2" src="imgs/gallery-2.jpg" alt="clothes" />
+            <img class="gallery-2" src="imgs/gallery-2.webp" alt="clothes" />
           </div>
           <div class="swiper-slide">
-            <img class="gallery-3" src="imgs/gallery-3.avif" alt="Ropa" />
+            <img class="gallery-3" src="imgs/gallery-3.webp" alt="Ropa" />
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -185,7 +189,7 @@
     </main>
     <footer class="footer">
       <a href="/" class="logo footer__logo">
-        <img src="imgs/logo.png" alt="Logo Briana Butique" />
+        <img src="imgs/logo.webp" alt="Logo Briana Butique" />
       </a>
       <div class="footer__aboutus">
         <h3 class="footer__title">Sobre nosotros</h3>
@@ -228,32 +232,4 @@
       </div>
     </footer>
   </body>
-
-  <script type="module">
-    import Swiper from "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs";
-
-    const swiper = new Swiper(".swiper", {
-      // Optional parameters
-      direction: "horizontal",
-      loop: true,
-      autoplay: true,
-
-      // If we need pagination
-      pagination: {
-        el: ".swiper-pagination",
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-        addIcons: true,
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: ".swiper-scrollbar",
-      },
-    });
-  </script>
 </html>

@@ -17,10 +17,13 @@
       rel="stylesheet"
     />
 
+    <!-- SWIPER JS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
+    <script defer type="module" src="script.js"></script>
+    <!-- SWIPER JS -->
 
     <link rel="stylesheet" href="style.css" />
     <title>Briana - Boutique</title>
@@ -28,7 +31,7 @@
   <body>
     <header>
       <a href="/">
-        <img class="logo" src="imgs/logo.png" alt="Logo Briana Butique" />
+        <img class="logo" src="imgs/logo.webp" alt="Logo Briana Butique" />
       </a>
       <nav class="header__nav">
         <ul>
@@ -62,13 +65,13 @@
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="imgs/slide-1.jpg" alt="Imagen de ropa colgada" />
+              <img src="imgs/slide-1.webp" alt="Imagen de ropa colgada" />
             </div>
             <div class="swiper-slide">
-              <img src="imgs/slide-2.jpg" alt="Imagen de ropa tendida" />
+              <img src="imgs/slide-2.webp" alt="Imagen de ropa tendida" />
             </div>
             <div class="swiper-slide">
-              <img src="imgs/slide-3.jpg" alt="Imagen de ropa ventilada" />
+              <img src="imgs/slide-3.webp" alt="Imagen de ropa ventilada" />
             </div>
           </div>
           <div class="swiper-pagination"></div>
@@ -169,7 +172,7 @@
             <div class="cart__item-img">
               <img
                 class="cart__img"
-                src="/imgs/clothes/vestido.avif"
+                src="/imgs/clothes/vestido.webp"
                 alt="Camisa "
               />
             </div>
@@ -250,7 +253,7 @@
             <div class="cart__item-img">
               <img
                 class="cart__img"
-                src="/imgs/clothes/premium_photo-1675186049366-64a655f8f537.avif"
+                src="/imgs/clothes/premium_photo-1675186049366-64a655f8f537.webp"
                 alt="Camisa "
               />
             </div>
@@ -337,7 +340,7 @@
           </div>
           <button class="pago__button card__btn">Hacer pedido (3)</button>
 
-          <img src="imgs/temu-info.png" alt="Temu information" />
+          <img src="imgs/temu-info.webp" alt="Temu information" />
         </section>
       </section>
 
@@ -367,7 +370,7 @@
 
           <div class="card">
             <div class="card__img-box">
-              <img src="imgs/clothes/camisa-negra.jpg" alt="Premium foto" />
+              <img src="imgs/clothes/camisa-negra.webp" alt="Premium foto" />
             </div>
             <div class="card__text-box">
               <h3 class="card__title">Polo Classic Black</h3>
@@ -388,7 +391,7 @@
 
           <div class="card">
             <div class="card__img-box">
-              <img src="imgs/clothes/children-clothe.jpg" alt="Premium foto" />
+              <img src="imgs/clothes/children-clothe.webp" alt="Premium foto" />
             </div>
             <div class="card__text-box">
               <h3 class="card__title">Vestido IVory</h3>
@@ -411,7 +414,7 @@
     </main>
     <footer class="footer">
       <a href="/" class="logo">
-        <img src="imgs/logo.png" alt="Logo Briana Butique" />
+        <img src="imgs/logo.webp" alt="Logo Briana Butique" />
       </a>
       <div class="footer__aboutus">
         <h3 class="footer__title">Sobre nosotros</h3>
@@ -454,30 +457,4 @@
       </div>
     </footer>
   </body>
-  <script type="module">
-    import Swiper from "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs";
-
-    const swiper = new Swiper(".swiper", {
-      // Optional parameters
-      direction: "horizontal",
-      loop: true,
-
-      // If we need pagination
-      pagination: {
-        el: ".swiper-pagination",
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-        addIcons: true,
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: ".swiper-scrollbar",
-      },
-    });
-  </script>
 </html>
